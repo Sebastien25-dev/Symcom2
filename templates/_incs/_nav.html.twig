@@ -1,0 +1,38 @@
+<div style="min-height:8vh !important;" class="ghost"></div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">SYMCOM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{path('app_home')}}">Accueil
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{path('app_product')}}">Nos produits</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">À propos</a>
+                </li>
+
+                {% include "_incs/_cat_nav.html.twig" %}
+
+            </ul>
+            <form class="d-flex" data-dashlane-rid="548add9bafdb8439" data-form-type="">
+                <input class="form-control me-sm-2" type="text" placeholder="Search"
+                    data-dashlane-rid="5b9ea7eb9fd98edc" data-form-type="">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit" data-dashlane-rid="6d1ccf1fa3df47ae"
+                    data-dashlane-label="true" data-form-type="">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
